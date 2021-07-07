@@ -17,6 +17,10 @@
   background-color: #eff3f4;
 }
 
+.q1_content:first-child {
+  margin-left: 0;
+}
+
 .q1_content {
   float: left;
   margin-left: 20px;
