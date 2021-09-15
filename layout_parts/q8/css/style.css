@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q8__trans {
+.main {
   position: relative;
   overflow: hidden;
   width: 500px;
@@ -9,10 +9,10 @@
   margin: 0 auto;
   cursor: pointer;
 }
-.q8__trans__thumb {
+.car-img {
   transition: all .5s;
 }
-.q8__trans__desc {
+.desc {
   position: absolute;
   bottom: -100%;
   left: 0;
@@ -21,13 +21,13 @@
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
   transition: all .5s;
 }
-.q8__trans:hover .q8__trans__thumb {
+.q8__trans:hover .car-img {
   transform: scale(1.5);
 }
-.q8__trans:hover .q8__trans__desc {
+.q8__trans:hover .desc {
   bottom: 0;
 }
-.q8__trans__desc__text {
+.text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -37,7 +37,7 @@
   box-sizing: border-box;
   word-break: break-all;
 }
-.q8__anima {
+.q8__animation {
   width: 100px;
   height: 100px;
   margin: 0 auto;
