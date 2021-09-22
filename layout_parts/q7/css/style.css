@@ -2,4 +2,79 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+ display: block;
+ content: "";
+ clear: both;
+ }
+
+ .q7 .q7__box {
+   width: 225px;
+ }
+ .q7--float .q7__box {
+   float: left;
+  margin-left: 50px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.q7--float .q7__box:first-child {
+  margin-left: 0;
+}
+.q7--table .q7__inner {
+  display: table;
+}
+.q7--table .q7__box {
+  display: table-cell;
+  padding-left: 50px;
+  vertical-align: middle;
+}
+.q7--table .q7__box:first-child {
+  padding-left: 0;
+}
+.q7--table .q7__box__text {
+  font-size: 16px;
+}
+.q7--inlineblock .q7__inner {
+  font-size: 0;
+}
+.q7--inlineblock .q7__box {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.q7--inlineblock .q7__box:first-child {
+  margin-left: 0;
+}
+.q7--flex .q7__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.q7--flex .q7__box {
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.q7--margin .q7__inner {
+  font-size: 0;
+}
+ .q7--margin .q7__box {
+   vertical-align: top;
+ }
+ .q7--margin .q7__box.is-stable {
+   display: inline-block;
+   width: 300px;
+ }
+.q7--margin .q7__box.is-flexible {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+.q7--margin .q7__box__text {
+  font-size: 16px;
+}
 /* 回答はここに書いてね */
